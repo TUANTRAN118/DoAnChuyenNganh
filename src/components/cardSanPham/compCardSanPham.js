@@ -1,32 +1,43 @@
 import React from 'react';
-import './footerStyles'
-import styles from './footerStyles';
+import '../cardSanPham/cardSanPhamStyles.css'
 
-const Footer = () => {
+const Product = ({productName, price, image, location, stand}) => {
     return (
 
-        <div style={styles.headerBottom}>
+       
+        <div className='col' >
+            <div className="card" >
+                <img src={image} class="card-img-top p-1" alt="..." />
+                <div className="card-body p-0 ps-3 pe-3">
+                    <h5 className="card-title mb-4">{productName}</h5>
+                    <span className='price' > {price} </span>
 
-            <div className='row'>
-                <div className='col-md-3' >
+                    <div className='location mt-2'>
+                        <img src={require('../../assets/img_Product/ic_location.png')} className="Logo" alt="..." style={{}} />
+                        <span> {location} </span>
+                    </div>
+
+                    <div className='stand mt-1'>
+                        <img src={require('../../assets/img_Product/ic_stand.png')} className="Logo" alt="..." style={{}} />
+                        <span> {stand} </span>
+                    </div>
+
+                    <div className='button d-flex mt-1'>
+                        <button className="button-add rounded-pill mt-2">Thêm giỏ hàng</button>
+                        <button className="button-favourite rounded-circle mt-2 ms-2">
+                            <img src={require('../../assets/img_Product/ic_favourite.png')} className="Logo" alt="..." style={{}} />
+                        </button>
+                    </div>
                 </div>
             </div>
-
         </div>
-
-
 
 
     );
 }
 
-export default Footer;
+export default Product;
 
 
-// <div className="header bottom" style={{ backgroundColor: '#5F374B', height: '600px', padding: '6px 0' }}>
-//     <div className='container-fluid'>
-
-//     </div>
-// </div>
 
 

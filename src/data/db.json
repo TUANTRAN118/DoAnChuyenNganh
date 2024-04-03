@@ -1,0 +1,103 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Thức ăn hỗn hợp cho heo",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Công Tuấn",
+            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "price": "500.000đ",
+            "discount": "-20%",
+            "stand_id": 1
+        },
+        {
+            "id": 2,
+            "title": "Cám gà cao cấp",
+            "location": "Đồng Nai",
+            "stand": "Nông sản Đồng Nai",
+            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "price": "250.000đ",
+            "discount": "-5%",
+            "stand_id": 2
+        },
+        {
+            "id": 3,
+            "title": "ROBORANTE CALIER",
+            "location": "Lâm Đồng",
+            "stand": "Thú ý Lâm Đồng",
+            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "price": "280.000đ",
+            "discount": "-10%",
+            "stand_id": 3
+        },
+        {
+            "id": 4,
+            "title": "Bộ tang gà đá",
+            "location": "Khánh Hòa",
+            "stand": "Trang trại Coca",
+            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "price": "200.000đ",
+            "discount": "-5%",
+            "stand_id": 4
+        },
+        {
+            "id": 5,
+            "title": "Thức ăn cho thỏ Rabbit Diet Apple ",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Công Tuấn",
+            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "price": "150.000đ",
+            "discount": "-18%",
+            "stand_id": 5
+        }
+    ],
+    "stands": [
+        {
+            "id": 1,
+            "name": "Nông sản Việt Thắng",
+            "adress": "Đồng Nai",
+            "phone": "0378273708",
+            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
+            "describe": "Đây là mô tả"
+
+        },
+        {
+            "id": 2,
+            "name": "Nông sản Việt Thắng",
+            "adress": "Đồng Nai",
+            "phone": "0378273708",
+            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
+            "describe": "Đây là mô tả"
+
+        },
+        {
+            "id": 3,
+            "name": "Nông sản Việt Thắng",
+            "adress": "Đồng Nai",
+            "phone": "0378273708",
+            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
+            "describe": "Đây là mô tả"
+
+        },
+        {
+            "id": 4,
+            "name": "Nông sản Việt Thắng",
+            "adress": "Đồng Nai",
+            "phone": "0378273708",
+            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
+            "describe": "Đây là mô tả"
+
+        },
+        {
+            "id": 5,
+            "name": "Nông sản Việt Thắng",
+            "adress": "Đồng Nai",
+            "phone": "0378273708",
+            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
+            "describe": "Đây là mô tả"
+
+        }
+    ]
+
+    
+}

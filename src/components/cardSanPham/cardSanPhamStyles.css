@@ -1,0 +1,60 @@
+
+
+.card{
+    width: 235px; 
+    height: 400px
+}
+
+.card-img-top{
+    width: 220px;
+    margin: 0 auto; 
+    height: 195px;
+
+}
+
+.card .card-title{
+    height: 30px;
+    font-weight: 500;
+}
+
+.card .price{
+    font-size: 20px;
+    font-family: 'inter' !important;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.card .location img{
+    width: 20px;
+    height: 20px;
+}
+
+.card .stand img, span{
+    width: 20px;
+    height: 20px;
+}
+
+.card button{
+    height: 38px;
+    background-color: #FFAA04;
+    border: none;
+    
+}
+
+.card .button-add{
+    width: 150px;
+    font-size: 18px;
+    color: #EEEDED;
+
+}
+
+.card .button-favourite{
+    width: 38px;
+
+}
+
+
+.card  .button-favourite img{
+    height: 23px;
+    width: 23px;
+}

@@ -76,10 +76,10 @@ const Header = () => {
                 {/* Navbar */}
                 <div className='row ' style={{ backgroundColor: '#FFD37E', height: '50px', padding: '2px' }}  >
                     <div className="col d-flex justify-content-center " style={{ display: 'flex', alignItems: 'center' }}>
-                        <ul class="nav">
+                        <ul className="nav">
 
 
-                            <li class="nav-item d-flex justify-content-end mt-1" style={{ width: '240px' }}>
+                            <li className="nav-item d-flex justify-content-end mt-1" style={{ width: '240px' }}>
                                 <Link to={"/tat-ca-san-pham"} className='rounded-pill  d-flex justify-content-center ' style={{ width: '220px', height: '39px', backgroundColor: '#E7B553', textDecoration: 'none' }}>
                                     <img className='mt-2' src={require('../../assets/img_header/ic_list.png')} alt='*' style={{ height: '23px', width: '40px' }}></img>
                                     <p className='m-0 ms-2 mt-1' style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}> Tất cả sản phẩm</p>
@@ -87,23 +87,23 @@ const Header = () => {
 
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to={"trang-chu"} class="nav-link" style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}>Trang chủ </Link>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to={"/gioi-thieu"} className="nav-link" style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}>Giới thiệu</Link>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to={"/tin-tuc"} class="nav-link" style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}>Tin tức</Link>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to={"huong-dan-giao-dich"} class="nav-link" href="#" style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}>Hướng dẫn giao dịch</Link>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to={"lien-he"} class="nav-link"  style={{ fontSize: '20px', fontWeight: '600', color: '#FFFFFF' }}>Liên hệ</Link>
                             </li>
 
