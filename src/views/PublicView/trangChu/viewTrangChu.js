@@ -7,6 +7,8 @@ import { useState, useEffect } from 'react';
 
 // test
 import CardProduct from '../../../components/cardSanPham/compCardSanPham'
+import CardStand from '../../../components/cardGianHang/compCardGianHang'
+
 
 
 
@@ -234,6 +236,21 @@ const TrangChu = () => {
                     <hr className='line mt-1' />
 
 
+                    <div className='row'>
+
+                        {products.slice(5, 10).map(product => (
+                            <div className='col' key={product.id}>
+                                <CardProduct
+                                    productName={product.title}
+                                    price={product.price}
+                                    image={product.image}
+                                    location={product.location}
+                                    stand={product.stand}
+                                />
+                            </div>
+                        ))}
+                    </div>
+
                 </div>
 
                 <div className='container mt-5'>
@@ -241,21 +258,17 @@ const TrangChu = () => {
                     <hr className='line mt-1' />
                     <div className='row'>
 
-                        {stands.map(stand => (
+                        {stands.slice(0,5).map(stand => (
                             <div className='col' key={stand.id}>
-                                <CardProduct
-                                    productName={stand.name}
+                                <CardStand
+                                    Name={stand.name}
                                     image={stand.image}
-                                    location={stand.location}
+                                    phone={stand.phone}
+                                    amount={stand.amount}
                                 />
                             </div>
-
                         ))}
                     </div>
-
-
-
-
 
                 </div>
 
@@ -265,20 +278,6 @@ const TrangChu = () => {
 
 
                 </div>
-
-
-
-
-
-
-
-                <p>content</p>
-                <p>content</p>
-                <p>content</p>
-                <p>content</p>
-                <p>content</p>
-                <p>content</p>
-                <p>content</p>
 
             </div>
 

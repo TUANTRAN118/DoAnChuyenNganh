@@ -5,7 +5,7 @@
             "title": "Thức ăn hỗn hợp cho heo",
             "location": "Lâm Đồng",
             "stand": "Nông sản Công Tuấn",
-            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/103S_Font.png",
             "price": "500.000đ",
             "discount": "-20%",
             "stand_id": 1
@@ -15,7 +15,7 @@
             "title": "Cám gà cao cấp",
             "location": "Đồng Nai",
             "stand": "Nông sản Đồng Nai",
-            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/339_Font.png",
             "price": "250.000đ",
             "discount": "-5%",
             "stand_id": 2
@@ -25,7 +25,7 @@
             "title": "ROBORANTE CALIER",
             "location": "Lâm Đồng",
             "stand": "Thú ý Lâm Đồng",
-            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "image": "https://th.bing.com/th/id/R.60307111b2f364ffd1fde1181fdb5897?rik=5ysEzSQT5movGA&pid=ImgRaw&r=0",
             "price": "280.000đ",
             "discount": "-10%",
             "stand_id": 3
@@ -35,7 +35,7 @@
             "title": "Bộ tang gà đá",
             "location": "Khánh Hòa",
             "stand": "Trang trại Coca",
-            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "image": "https://www.biopharmachemie.com/uploads/images/product/giacam-thuycam/B%E1%BB%99%20tang%20g%C3%A0%20%C4%91%C3%A1.jpg",
             "price": "200.000đ",
             "discount": "-5%",
             "stand_id": 4
@@ -45,56 +45,167 @@
             "title": "Thức ăn cho thỏ Rabbit Diet Apple ",
             "location": "Lâm Đồng",
             "stand": "Nông sản Công Tuấn",
-            "image": "https://th.bing.com/th/id/OIP.dhjKGWa6mtrV6UDiEk6V-gHaE7?rs=1&pid=ImgDetMain",
+            "image": "https://www.justpetsstore.com/image/justpetsstore/image/cache/data/all_product_images/product-2567/6f660b0781f5e38feb8893c29e1ad7dd-1024x1024.jpg",
             "price": "150.000đ",
             "discount": "-18%",
             "stand_id": 5
+        },
+        {
+            "id": 6,
+            "title": "VINA 7030",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Vĩnh Lợi",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/06_2023/7030.png",
+            "price": "310.000đ",
+            "discount": "-20%",
+            "stand_id": 6
+        },
+        {
+            "id": 7,
+            "title": "Thức ăn cho vịt HAPPY 447",
+            "location": "Biên Hòa",
+            "stand": "Nông sản Vina",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/06_2023/447.png",
+            "price": "300.000đ",
+            "discount": "-5%",
+            "stand_id": 7
+        },
+        {
+            "id": 8,
+            "title": "VINA 103S (Miền Nam)",
+            "location": "Biên Hòa",
+            "stand": "Nông sản Vina",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/102M_Font.png",
+            "price": "280.000đ",
+            "discount": "-10%",
+            "stand_id": 8
+        },
+        {
+            "id": 9,
+            "title": "Thức ăn cho gà VINA 221",
+            "location": "Khánh Hòa",
+            "stand": "Trang trại Coca",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/221.png",
+            "price": "300.000đ",
+            "discount": "-5%",
+            "stand_id": 9
+        },
+        {
+            "id": 10,
+            "title": "Thức ăn cho cá VINA 7080 ",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Công Tuấn",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/06_2023/7080.png",
+            "price": "350.000đ",
+            "discount": "-18%",
+            "stand_id": 10
+        },
+        {
+            "id": 11,
+            "title": "Thức ăn cho thỏ Rabbit Diet Apple ",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Công Tuấn",
+            "image": "https://www.justpetsstore.com/image/justpetsstore/image/cache/data/all_product_images/product-2567/6f660b0781f5e38feb8893c29e1ad7dd-1024x1024.jpg",
+            "price": "150.000đ",
+            "discount": "-18%",
+            "stand_id": 11
+        },
+        {
+            "id": 12,
+            "title": "VINA 7030",
+            "location": "Lâm Đồng",
+            "stand": "Nông sản Vĩnh Lợi",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/06_2023/7030.png",
+            "price": "310.000đ",
+            "discount": "-20%",
+            "stand_id": 12
+        },
+        {
+            "id": 13,
+            "title": "Thức ăn cho vịt HAPPY 447",
+            "location": "Biên Hòa",
+            "stand": "Nông sản Vina",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/06_2023/447.png",
+            "price": "300.000đ",
+            "discount": "-5%",
+            "stand_id": 13
+        },
+        {
+            "id": 14,
+            "title": "VINA 103S (Miền Nam)",
+            "location": "Biên Hòa",
+            "stand": "Nông sản Vina",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/102M_Font.png",
+            "price": "280.000đ",
+            "discount": "-10%",
+            "stand_id": 14
+        },
+        {
+            "id": 15,
+            "title": "Thức ăn cho gà VINA 221",
+            "location": "Khánh Hòa",
+            "stand": "Trang trại Coca",
+            "image": "https://vinafeed.com.vn/vnt_upload/product/05_2023/221.png",
+            "price": "300.000đ",
+            "discount": "-5%",
+            "stand_id": 15
         }
+
     ],
+
+
     "stands": [
         {
             "id": 1,
             "name": "Nông sản Việt Thắng",
-            "adress": "Đồng Nai",
+            "address": "Đồng Nai",
             "phone": "0378273708",
-            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
-            "describe": "Đây là mô tả"
+            "image": "https://thuvienlogo.com/data/04/logo-nong-san-dep-09.jpg",
+            "describe": "Đây là mô tả",
+            "amount":"3 sản phẩm"
 
         },
         {
             "id": 2,
-            "name": "Nông sản Việt Thắng",
-            "adress": "Đồng Nai",
+            "name": "Nông sản Vina",
+            "address": "Biên Hòa",
             "phone": "0378273708",
-            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
-            "describe": "Đây là mô tả"
+            "image": "https://png.pngtree.com/png-vector/20190221/ourlarge/pngtree-letter-v-with-green-leaf-logo-png-image_693082.jpg",
+            "describe": "Đây là mô tả",
+            "amount":"5 sản phẩm"
+
 
         },
         {
             "id": 3,
-            "name": "Nông sản Việt Thắng",
-            "adress": "Đồng Nai",
+            "name": "Nông sản Công Tuấn",
+            "address": "Đồng Nai",
             "phone": "0378273708",
-            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
-            "describe": "Đây là mô tả"
+            "image": "https://iweb.tatthanh.com.vn/pic/3/blog/images/image(10478).png",
+            "describe": "Đây là mô tả",
+            "amount":"10 sản phẩm"
+
 
         },
         {
             "id": 4,
-            "name": "Nông sản Việt Thắng",
-            "adress": "Đồng Nai",
+            "name": "Trang trại Coca",
+            "address": "Khánh Hòa",
             "phone": "0378273708",
-            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
-            "describe": "Đây là mô tả"
+            "image": "https://th.bing.com/th/id/OIP.1pduUVw0CdFDuAUThjyXkAAAAA?w=238&h=250&rs=1&pid=ImgDetMain",
+            "describe": "Đây là mô tả",
+            "amount":"5 sản phẩm"
 
         },
         {
             "id": 5,
-            "name": "Nông sản Việt Thắng",
-            "adress": "Đồng Nai",
+            "name": "Nông sản Vĩnh Lợi",
+            "address": "lâm Đồng",
             "phone": "0378273708",
-            "image": "https://static.vecteezy.com/system/resources/previews/000/395/417/original/modern-company-logo-design-vector.jpg",
-            "describe": "Đây là mô tả"
+            "image": "https://binbrand.vn/storage/upload/2020-08/logo%20nong%20nghiep%202.jpg",
+            "describe": "Đây là mô tả",
+            "amount":"2 sản phẩm"
+
 
         }
     ]

@@ -1,0 +1,58 @@
+
+
+.card-stands{
+    width: 235px; 
+    height: 350px;
+
+}
+
+.card-img-top{
+    width: 220px;
+    margin: 0 auto; 
+    height: 195px;
+    border-radius: 5%;
+    padding: 5px;
+
+}
+
+.card .card-title{
+    height: 30px;
+    font-weight: 500;
+}
+
+
+
+.card .phone img{
+    width: 20px;
+    height: 23px;
+}
+
+
+.card .product img{
+    width: 20px;
+    height: 23px;
+}
+
+
+
+
+
+.card button{
+    height: 38px;
+    background-color: #FFAA04;
+    border: none;
+    
+}
+
+.card .button-detail{
+    width: 250px;
+    font-size: 18px;
+    color: #EEEDED;
+
+}
+
+.card .button-detail:hover{
+    background-color: #ffbf00; 
+    color: #FFFFFF; 
+}
+

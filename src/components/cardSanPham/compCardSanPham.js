@@ -6,7 +6,7 @@ const Product = ({productName, price, image, location, stand}) => {
 
        
         <div className='col' >
-            <div className="card" >
+            <div className="card card-products" >
                 <img src={image} class="card-img-top p-1" alt="..." />
                 <div className="card-body p-0 ps-3 pe-3">
                     <h5 className="card-title mb-4">{productName}</h5>
@@ -22,7 +22,7 @@ const Product = ({productName, price, image, location, stand}) => {
                         <span> {stand} </span>
                     </div>
 
-                    <div className='button d-flex mt-1'>
+                    <div className='button d-flex '>
                         <button className="button-add rounded-pill mt-2">Thêm giỏ hàng</button>
                         <button className="button-favourite rounded-circle mt-2 ms-2">
                             <img src={require('../../assets/img_Product/ic_favourite.png')} className="Logo" alt="..." style={{}} />
