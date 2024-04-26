@@ -5,6 +5,8 @@ import TinTuc from '../PublicView/tinTuc/viewTinTuc'
 import HuongDanGiaoDich from '../PublicView/huongDanGiaoDich/viewHuongDanGiaoDich'
 import LienHe from '../PublicView/lienHe/viewLienHe'
 import TatCaSanPham from '../views/PublicView/tatCaSanPham'
+import DangNhap from '../views/PublicView/DangNhap/viewDangNhap'
+
 
 function Public() {
   return (
@@ -17,14 +19,11 @@ function Public() {
       <Route exact path='/huong-dan-giao-dich' element={<HuongDanGiaoDich />} />
       <Route exact path='/tin-tuc' element={<TinTuc />} />
       <Route exact path='/lien-he' element={<LienHe />} />
+      <Route exact path='/login' element={<DangNhap />} />
+
+      
+
     </Routes>
-
-
-
-
-
-
-
 
 
 

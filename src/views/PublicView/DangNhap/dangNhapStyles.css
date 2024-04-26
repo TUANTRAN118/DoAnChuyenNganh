@@ -1,0 +1,25 @@
+.main{
+    background-color: #f5f3f3;
+}
+
+.container-login{
+    background-color: #fff;
+    width: 550px;
+    height:410px;
+    
+}
+
+.btn{
+    width: 400px;
+    height: 35px;
+    border: none;
+    background-color: #FFAA04;
+    
+}
+.or-login{
+    color: #888;
+}
+.custom-link-login{
+    text-decoration: none; 
+    color: #FFAA04;
+}

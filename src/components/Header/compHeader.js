@@ -1,10 +1,16 @@
-import React from 'react';
 import '../../components/Header/headerStyles.css'
-
 import { Link } from 'react-router-dom';
 
 
+import React, { useContext } from 'react';
+import { AuthContext } from '../../authContext';
+
+
 const Header = () => {
+
+    const { isAuthenticated } = useContext(AuthContext);
+
+
     return (
         <div className="header fixed-top" style={{ height: '165px' }}>
             <div className='container-fluid'>
@@ -66,11 +72,26 @@ const Header = () => {
                             <img src={require('../../assets/img_header/Variant5.png')} alt='*' style={{ height: '26px', width: '26px' }}></img>
                         </a>
 
-                        <a href='#' className=' d-flex  align-items-center ' style={{ marginLeft: '35px', marginTop: '5px', textDecoration: 'none' }}>
+                        {/* <Link to={"/login"} className=' d-flex  align-items-center ' style={{ marginLeft: '35px', marginTop: '5px', textDecoration: 'none' }}>
                             <img src={require('../../assets/img_header/user.png')} alt='*' style={{ height: '30px', width: '30px' }}></img>
                             <p className='' style={{ marginLeft: '10px', marginTop: '8px', color: '#6c757d' }}> Đăng ký/Đăng nhập</p>
 
-                        </a>
+                        </Link> */}
+                        {isAuthenticated ? (
+                            <Link to={"/user-manager"} className='d-flex align-items-center' style={{ marginLeft: '35px', marginTop: '5px', textDecoration: 'none' }}>
+                                <img src={'https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png'} alt='*' style={{ height: '40px', width: '40px' }}></img>
+                                <p style={{ marginLeft: '10px', marginTop: '18px', color: '#6c757d' }}>CONGTUAN</p>
+                            </Link>
+                        ) : (
+                            <Link to={"/login"} className='d-flex align-items-center' style={{ marginLeft: '35px', marginTop: '5px', textDecoration: 'none' }}>
+                                <img src={require('../../assets/img_header/user.png')} alt='*' style={{ height: '30px', width: '30px' }}></img>
+                                <p style={{ marginLeft: '10px', marginTop: '8px', color: '#6c757d' }}>Đăng ký/Đăng nhập</p>
+                            </Link>
+                        )}
+
+
+
+
                     </div>
                 </div>
 
